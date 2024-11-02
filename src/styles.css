@@ -1,0 +1,38 @@
+:root {
+    --main-bg-color: #f0f0f0;
+    --text-color: #333;
+    --border-radius: 10px;
+    --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: var(--main-bg-color);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    height: calc(100vh - 50px);
+}
+
+span {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
+.current {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
